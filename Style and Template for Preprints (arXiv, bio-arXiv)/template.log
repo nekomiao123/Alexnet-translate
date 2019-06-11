@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.17)  11 JUN 2019 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.17)  11 JUN 2019 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -407,92 +407,100 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (e:/latex/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-)) (./template.aux
+))
+(e:/latex/texmf-dist/tex/latex/abstract/abstract.sty
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip62
+\absleftindent=\skip63
+\absrightindent=\skip64
+\absparindent=\skip65
+\absparsep=\skip66
+) (./template.aux
 
 LaTeX Warning: Label `tab:table' multiply defined.
 
 )
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 56.
  (e:/latex/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -563,7 +571,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 53.
+Package hyperref Info: Link coloring OFF on input line 56.
 (e:/latex/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -572,14 +580,14 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count120
 )
-LaTeX Info: Redefining \ref on input line 53.
-LaTeX Info: Redefining \pageref on input line 53.
-LaTeX Info: Redefining \nameref on input line 53.
+LaTeX Info: Redefining \ref on input line 56.
+LaTeX Info: Redefining \pageref on input line 56.
+LaTeX Info: Redefining \nameref on input line 56.
  (./template.out) (./template.out)
 \@outlinefile=\write3
 \openout3 = `template.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 53.
+LaTeX Info: Redefining \microtypecontext on input line 56.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -631,7 +639,7 @@ File: UTF8.enc 2015/04/18 4.8.4
 (e:/latex/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
-LaTeX Font Info:    Try loading font information for C70+gkai on input line 54.
+LaTeX Font Info:    Try loading font information for C70+gkai on input line 57.
 
 
 (e:/latex/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gkai.fd
@@ -642,9 +650,9 @@ File: c70gkai.fdx 2015/04/18 4.8.4
 )
 
 LaTeX Font Warning: Font shape `C70/gkai/m/sc' undefined
-(Font)              using `C70/gkai/m/n' instead on input line 56.
+(Font)              using `C70/gkai/m/n' instead on input line 59.
 
-LaTeX Font Info:    Try loading font information for T1+phv on input line 56.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 59.
 (e:/latex/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -657,7 +665,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 56.
+LaTeX Font Info:    Try loading font information for U+msa on input line 59.
 
 (e:/latex/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -665,7 +673,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (e:/latex/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 56.
+LaTeX Font Info:    Try loading font information for U+msb on input line 59.
 
 (e:/latex/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -674,8 +682,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 56.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 56.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 59.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 59.
 
 (e:/latex/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -684,10 +692,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 57.
-LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 57.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 71.
  (./chapter/Introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
@@ -712,7 +722,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
 
 {e:/latex/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-Underfull \hbox (badness 10000) in paragraph at lines 9--69
+Underfull \hbox (badness 10000) in paragraph at lines 9--73
 
  []
 
@@ -748,7 +758,7 @@ pdfTeX warning: pdflatex.exe (file ./1.pdf): PDF inclusion: found PDF version <
 <1.pdf, id=209, 844.65562pt x 596.98032pt>
 File: 1.pdf Graphic file (type pdf)
 <use 1.pdf>
-Package pdftex.def Info: 1.pdf  used on input line 84.
+Package pdftex.def Info: 1.pdf  used on input line 88.
 (pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
 (./chapter/chapter3_2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
@@ -785,10 +795,10 @@ pdfTeX warning: pdflatex.exe (file ./2.pdf): PDF inclusion: found PDF version <
 <2.pdf, id=238, 844.65562pt x 596.98032pt>
 File: 2.pdf Graphic file (type pdf)
 <use 2.pdf>
-Package pdftex.def Info: 2.pdf  used on input line 100.
+Package pdftex.def Info: 2.pdf  used on input line 104.
 (pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
 
-Overfull \hbox (37.0423pt too wide) in paragraph at lines 100--101
+Overfull \hbox (37.0423pt too wide) in paragraph at lines 104--105
  [][] 
  []
 
@@ -803,12 +813,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 5--107
+Underfull \hbox (badness 10000) in paragraph at lines 5--111
 
  []
 
 (./chapter/chapter4.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1--110
+Underfull \hbox (badness 10000) in paragraph at lines 1--114
 
  []
 
@@ -859,7 +869,7 @@ pdfTeX warning: pdflatex.exe (file ./3.pdf): PDF inclusion: found PDF version <
 <3.pdf, id=265, 844.65562pt x 596.98032pt>
 File: 3.pdf Graphic file (type pdf)
 <use 3.pdf>
-Package pdftex.def Info: 3.pdf  used on input line 125.
+Package pdftex.def Info: 3.pdf  used on input line 129.
 (pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
 (./chapter/chapter6_1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
@@ -891,7 +901,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 14--132
+Underfull \hbox (badness 10000) in paragraph at lines 14--136
 
  []
 
@@ -901,12 +911,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
  []
 
 ) [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
  [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
  (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: C892DDAA362D3F7DB594FF16419BA721;1138.
 
@@ -916,16 +926,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
  ) 
 Here is how much of TeX's memory you used:
- 11825 strings out of 492649
- 171370 string characters out of 6136695
- 412855 words of memory out of 5000000
- 15026 multiletter control sequences out of 15000+600000
- 107976 words of font info for 288 fonts, out of 8000000 for 9000
+ 11892 strings out of 492649
+ 172541 string characters out of 6136695
+ 413990 words of memory out of 5000000
+ 15091 multiletter control sequences out of 15000+600000
+ 107559 words of font info for 291 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,45p,1239b,1751s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,45p,1239b,1755s stack positions out of 5000i,500n,10000p,200000b,80000s
 {e:/latex/texmf-dist/fonts/enc/dvips/base/8r.enc}{e:/latex/texmf-dist/fonts/e
 nc/dvips/cm-super/cm-super-t1.enc}<e:/latex/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmex10.pfb><e:/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
@@ -994,10 +1004,10 @@ ic/cm-super/sftt1000.pfb><e:/latex/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
 fb><e:/latex/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><e:/latex/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb><e:/latex/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on template.pdf (10 pages, 1093187 bytes).
+Output written on template.pdf (10 pages, 1093617 bytes).
 PDF statistics:
  619 PDF objects out of 1000 (max. 8388607)
  428 compressed objects within 5 object streams
  64 named destinations out of 1000 (max. 500000)
- 32189 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 32701 words of extra memory for PDF output out of 35830 (max. 10000000)
 

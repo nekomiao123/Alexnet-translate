@@ -1,6 +1,5 @@
 \documentclass[12pt]{article}
 
-
 \usepackage{arxiv}
 
 \usepackage[utf8]{inputenc} % allow utf-8 input
@@ -15,6 +14,8 @@
 \usepackage{amsmath}
 \usepackage{CJKutf8}
 \usepackage{graphics}
+\usepackage{abstract}
+
 
 \title{深度卷积神经网络对\textsf{Imagenet}的分类}
 
@@ -49,11 +50,14 @@
   %% Address \\
   %% \texttt{email} \\
 
-
+\date{}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表格}
 \begin{document}
 \begin{CJK*}{UTF8}{gkai}\CJKindent
 \maketitle
 
+\renewcommand{\abstractname}{\Large摘要}
 \begin{abstract}
 
 我们训练了一个大规模的深度卷积神经网络，将ImageNet LSVRC-2010比赛中的120万个高分辨率图像分为1000种不同类别。在测试数据上，我们得到的top-1和top-5的错误率分别为37.5\%和17.0\%，这个结果大大优于当前的最佳水平。这个神经网络包含6千万个参数和65万个神经元，还包含了5个卷积层（某些卷积层的后面有最大池化层）以及3个全连接层，最后一个层是1000维的softmax。为了加快训练速度，我们使用了非饱和神经元以及一种基于GPU的高效的卷积运算方法。为了减少全连接层的过拟合，我们运用了最新的正则化方法“dropout”，结果证明是非常有效的。我们也使用这个模型的变种参加了ILSVRC-2012比赛，相比第二名在top-5上26.2\%的错误率，我们以15.3\%的错误率取胜。
