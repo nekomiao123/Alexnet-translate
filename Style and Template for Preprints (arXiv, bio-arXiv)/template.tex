@@ -1,0 +1,281 @@
+\documentclass[12pt]{article}
+
+
+\usepackage{arxiv}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{lipsum}
+\usepackage{amsmath}
+\usepackage{CJKutf8}
+\usepackage{graphics}
+
+\title{深度卷积神经网络对\textsf{Imagenet}的分类}
+
+\author{
+  Alex Krizhevsky \\
+  多伦多大学\\
+  \texttt{kriz@cs.utoronto.ca} \\
+  %% examples of more authors
+   \And
+ Ilya Sutskever \\
+  多伦多大学\\
+  \texttt{ilya@cs.utoronto.ca} \\
+  %% examples of more authors
+  \And
+ Geoffrey E. Hinton\\
+  多伦多大学\\
+  \texttt{hinton@cs.utoronto.ca}
+}  
+  %% \AND
+  %% Coauthor \\
+  %% Affiliation \\
+  %% Address \\
+  %% \texttt{email} \\
+  %% \And
+  %% Coauthor \\
+  %% Affiliation \\
+  %% Address \\
+  %% \texttt{email} \\
+  %% \And
+  %% Coauthor \\
+  %% Affiliation \\
+  %% Address \\
+  %% \texttt{email} \\
+
+
+\begin{document}
+\begin{CJK*}{UTF8}{gkai}\CJKindent
+\maketitle
+
+\begin{abstract}
+
+我们训练了一个大规模的深度卷积神经网络，将ImageNet LSVRC-2010比赛中的120万个高分辨率图像分为1000种不同类别。在测试数据上，我们得到的top-1和top-5的错误率分别为37.5\%和17.0\%，这个结果大大优于当前的最佳水平。这个神经网络包含6千万个参数和65万个神经元，还包含了5个卷积层（某些卷积层的后面有最大池化层）以及3个全连接层，最后一个层是1000维的softmax。为了加快训练速度，我们使用了非饱和神经元以及一种基于GPU的高效的卷积运算方法。为了减少全连接层的过拟合，我们运用了最新的正则化方法“dropout”，结果证明是非常有效的。我们也使用这个模型的变种参加了ILSVRC-2012比赛，相比第二名在top-5上26.2\%的错误率，我们以15.3\%的错误率取胜。
+\end{abstract}
+
+
+% keywords can be removed
+%\keywords{First keyword \and Second keyword \and More}
+
+
+\section{介绍}
+\input{chapter/Introduction.tex}
+
+
+\section{数据集}
+\input{chapter/chapter2.tex}
+
+
+\section{模型体系结构}
+\input{chapter/chapter3.tex}
+
+
+\subsection{ReLU非线性函数}
+\input{chapter/chapter3_1.tex}
+
+\begin{figure}[ht]
+  \centering
+  \scalebox{0.4}{\includegraphics{1.pdf}}
+  \caption{使用ReLU的四层卷积神经网络（实线）在CIFAR-10数据集上达到25\%的训练误差比使用tanh神经元的等价网络（虚线）快六倍。为了使训练尽可能快，每个网络的学习率是独立选取的。没有采用任何类型的正则化。这里演示的效果因网络结构的不同而不同，但带ReLU的网络学习始终比带饱和神经元的同等网络快好几倍。}
+  \label{fig:fig1}
+\end{figure}
+
+\subsection{多GPU并行训练}
+\input{chapter/chapter3_2.tex}
+
+\subsection{局部响应归一化}
+\input{chapter/chapter3_3.tex}
+
+\subsection{重叠池化}
+\input{chapter/chapter3_4.tex}
+
+\begin{figure}[htbp]
+  \centering
+  \scalebox{0.6}{\includegraphics{2.pdf}}
+  \caption{CNN体系结构示意图，明确显示了两个GPU之间的职责划分。一个GPU运行图中顶部的层次部分，而另一个GPU运行图中底部的层次部分。GPU之间仅在某些层互相通信。该网络的输入是150,528维的，且该网络剩下各层的神经元数分别为253,440–186,624–64,896–64,896–43,264–4096–4096–1000。}
+  \label{fig:fig2}
+\end{figure}
+
+\subsection{总体结构}
+\input{chapter/chapter3_5.tex}
+
+\section{减少过拟合}
+\input{chapter/chapter4.tex}
+
+\subsection{数据增强}
+\input{chapter/chapter4_1.tex}
+
+\subsection{随机失活}
+\input{chapter/chapter4_2.tex}
+
+\section{学习细节}
+\input{chapter/chapter5.tex}
+
+\section{结果}
+\input{chapter/chapter6.tex}
+
+\begin{figure}[h]
+  \centering
+  \scalebox{0.4}{\includegraphics{3.pdf}}
+  \caption{第一卷积层在224×224×3的输入图像上学习到的大小为11×11×3的96个卷积核。上面的48个核是在GPU 1上学习到的而下面的48个卷积核是在GPU 2上学习到的。更多细节请看6.1小节。}
+  \label{fig:fig3}
+\end{figure}
+
+\subsection{定性评价}
+\input{chapter/chapter6_1.tex}
+
+
+\section{讨论}
+\input{chapter/chapter7.tex}
+
+
+
+\bibliographystyle{unsrt}  
+%\bibliography{references} 
+%%% Remove comment to use the external .bib file (using bibtex).
+%%% and comment out the ``thebibliography'' section.
+
+%%% Comment out this section when you \bibliography{references} is enabled.
+\begin{thebibliography}{1}
+
+\bibitem{1}
+R.M.BellandY.Koren.
+\newblock Lessons from the netflix prize challenge.
+\newblock {\em ACM SIGKDD Explorations Newsletter},9(2):75–79, 2007. 
+
+\bibitem{2}
+A. Berg, J. Deng, and L. Fei-Fei. 
+\newblock Large scale visual recognition challenge 2010. 
+\newblock www.imagenet.org/challenges. 2010. 
+
+\bibitem{3}
+L. Breiman. 
+\newblock Random forests.
+\newblock {\em Machine learning},45(1):5–32, 2001. 
+
+\bibitem{4}
+D. Cires¸an, U. Meier, and J. Schmidhuber.  
+\newblock Multi-column deep neural networks for image classification. 
+\newblock {\em Arxiv preprint arXiv:1202.2745},2012.
+
+\bibitem{5}
+D.C. Cires¸an, U. Meier, J. Masci, L.M. Gambardella, and J. Schmidhuber.   
+\newblock High-performance neural networks for visual object classification. 
+\newblock {\em Arxiv preprint arXiv:1102.0183},2011.
+
+\bibitem{6}
+J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. 
+\newblock ImageNet: A Large-Scale Hierarchical Image Database.
+\newblock {\em In CVPR09},2009.
+
+\bibitem{7}
+J. Deng, A. Berg, S. Satheesh, H. Su, A. Khosla, and L. Fei-Fei.  
+\newblock ImageNet: A Large-Scale Hierarchical Image Database.
+\newblock {\em ILSVRC-2012},2012.  URL http://www.image-net.org/challenges/LSVRC/2012/. 
+
+\bibitem{8}
+L. Fei-Fei, R. Fergus, and P. Perona. 
+\newblock  Learning generative visual models from few training examples:  An incremental bayesian approach tested on 101 object categories. 
+\newblock {\em Computer Vision and Image Understanding}, 106(1):59–70, 2007.
+
+\bibitem{9}
+G. Griffin, A. Holub, and P. Perona.
+\newblock Caltech-256 object category dataset. 
+\newblock Technical Report 7694, California Institute of Technology, 2007. URL http://authors.library.caltech.edu/7694.
+
+\bibitem{10}
+G.E. Hinton, N. Srivastava, A. Krizhevsky, I. Sutskever, and R.R. Salakhutdinov.  
+\newblock  Improving neural networks by preventing co-adaptation of feature detectors. 
+\newblock {\em arXiv preprint arXiv:1207.0580},2012.
+
+\bibitem{11}
+K. Jarrett, K. Kavukcuoglu, M. A. Ranzato, and Y. LeCun. 
+\newblock What is the best multi-stage architecture for object recognition?
+\newblock In {\em International Conference on Computer Vision},pages 2146–2153. IEEE, 2009. 
+
+\bibitem{12}
+A. Krizhevsky. 
+\newblock Learning multiple layers of features from tiny images. 
+\newblock Master’s thesis, Department of Computer Science, University of Toronto, 2009. 
+
+\bibitem{13}
+A. Krizhevsky.  
+\newblock Convolutional deep belief networks on cifar-10. 
+\newblock {\em Unpublished manuscript},2010.
+
+\bibitem{14}
+A. Krizhevsky and G.E. Hinton.  
+\newblock Using very deep autoencoders for content-based image retrieval. 
+\newblock In {\em ESANN},2011.
+
+\bibitem{15}
+Y. Le Cun, B. Boser, J.S. Denker, D. Henderson, R.E. Howard, W. Hubbard, L.D. Jackel, et al.  
+\newblock Hand-written digit recognition with a back-propagation network. 
+\newblock In {\em Advances in neural information processing systems},1990.
+
+\bibitem{16}
+Y. LeCun, F.J. Huang, and L. Bottou.  
+\newblock Learning methods for generic object recognition with invariance to pose and lighting.
+\newblock In {\em   Computer Vision and Pattern Recognition, 2004. CVPR 2004. Proceedings of the 2004 IEEE Computer Society Conference on},volume 2, pages II–97. IEEE, 2004.
+
+\bibitem{17}
+Y. LeCun, K. Kavukcuoglu, and C. Farabet. 
+\newblock Convolutional networks and applications in vision. 
+\newblock In {\em Circuits and Systems (ISCAS), Proceedings of 2010 IEEE International Symposium on}, pages 253–256. IEEE, 2010. 
+\bibitem{18}
+H. Lee, R. Grosse, R. Ranganath, and A.Y. Ng.  
+\newblock  Convolutional deep belief networks for scalable unsupervised learning of hierarchical representations.  
+\newblock In {\em Proceedings of the 26th Annual International Conference on Machine Learning},pages 609–616. ACM, 2009. 
+
+\bibitem{19}
+T. Mensink, J. Verbeek, F. Perronnin, and G. Csurka.   
+\newblock Metric Learning for Large Scale Image Classification: Generalizing to New Classes at Near-Zero Cost. 
+\newblock In {\em  ECCV - European Conference on Computer Vision, Florence, Italy},October 2012.
+
+\bibitem{20}
+V. Nair and G. E. Hinton. 
+\newblock Rectified linear units improve restricted boltzmann machines.  
+\newblock In {\em Proc. 27th International Conference on Machine Learning},2010.
+
+\bibitem{21}
+N. Pinto, D.D. Cox, and J.J. DiCarlo.  
+\newblock Why is real-world visual object recognition hard?  
+\newblock {\em PLoS computational biology},4(1):e27, 2008. 
+
+\bibitem{22}
+N. Pinto, D. Doukhan, J.J. DiCarlo, and D.D. Cox.  
+\newblock A high-throughput screening approach to discovering good forms of biologically inspired visual representation. 
+\newblock {\em  PLoS computational biology},5(11):e1000579, 2009. 
+
+\bibitem{23}
+B.C. Russell, A. Torralba, K.P. Murphy, and W.T. Freeman.  
+\newblock Labelme: a database and web-based tool for image annotation.
+\newblock {\em  International journal of computer vision},77(1):157–173, 2008.
+
+\bibitem{24}
+J.SánchezandF.Perronnin.  
+\newblock High-dimensional signature compression for large-scale image classification.
+\newblock In {\em Computer Vision and Pattern Recognition(CVPR),2011 IEEE Conference on},pages1665–1672.IEEE, 2011. 
+ 
+\bibitem{25}
+P.Y. Simard, D. Steinkraus, and J.C. Platt.   
+\newblock Best practices for convolutional neural networks applied to visualdocumentanalysis. 
+\newblock In {\em Proceedings of the Seventh International Conference on Document Analysis and Recognition},volume 2, pages 958–962, 2003.
+
+\bibitem{26}
+S.C.Turaga,J.F.Murray,V.Jain,F.Roth,M.Helmstaedter,K.Briggman,W.Denk,andH.S.Seung.  
+\newblock  Convolutional networks can learn to generate affinity graphs for image segmentation. 
+\newblock {\em Neural Computation},22(2):511–538, 2010.
+
+
+
+\end{thebibliography}
+
+\end{CJK*}
+\end{document}
