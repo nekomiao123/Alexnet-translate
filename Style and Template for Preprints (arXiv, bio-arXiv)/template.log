@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.17)  11 JUN 2019 22:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.17)  21 JUN 2019 09:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -866,7 +866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
 pdfTeX warning: pdflatex.exe (file ./3.pdf): PDF inclusion: found PDF version <
 1.7>, but at most version <1.5> allowed
-<3.pdf, id=265, 844.65562pt x 596.98032pt>
+<3.pdf, id=266, 844.65562pt x 596.98032pt>
 File: 3.pdf Graphic file (type pdf)
 <use 3.pdf>
 Package pdftex.def Info: 3.pdf  used on input line 129.
@@ -885,7 +885,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 pdfTeX warning: pdflatex.exe (file ./4.pdf): PDF inclusion: found PDF version <
 1.7>, but at most version <1.5> allowed
-<4.pdf, id=278, 844.65562pt x 596.98032pt>
+<4.pdf, id=279, 844.65562pt x 596.98032pt>
 File: 4.pdf Graphic file (type pdf)
 <use 4.pdf>
 Package pdftex.def Info: 4.pdf  used on input line 7.
@@ -929,13 +929,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
  ) 
 Here is how much of TeX's memory you used:
- 11892 strings out of 492649
- 172541 string characters out of 6136695
+ 11885 strings out of 492649
+ 172463 string characters out of 6136695
  413990 words of memory out of 5000000
- 15091 multiletter control sequences out of 15000+600000
- 107559 words of font info for 291 fonts, out of 8000000 for 9000
+ 15087 multiletter control sequences out of 15000+600000
+ 107429 words of font info for 289 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,45p,1239b,1755s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,45p,1239b,1753s stack positions out of 5000i,500n,10000p,200000b,80000s
 {e:/latex/texmf-dist/fonts/enc/dvips/base/8r.enc}{e:/latex/texmf-dist/fonts/e
 nc/dvips/cm-super/cm-super-t1.enc}<e:/latex/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmex10.pfb><e:/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
@@ -944,70 +944,70 @@ b><e:/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><e:/latex/texmf
 /public/amsfonts/cm/cmr10.pfb><e:/latex/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr7.pfb><e:/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><e:/
 latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><e:/latex/texmf-dist/
-fonts/type1/arphic/gkaiu/gkaiu00.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gk
-aiu/gkaiu30.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu4e.pfb><e:/l
-atex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu4f.pfb><e:/latex/texmf-dist/fonts
-/type1/arphic/gkaiu/gkaiu50.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/g
-kaiu51.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu52.pfb><e:/latex/
-texmf-dist/fonts/type1/arphic/gkaiu/gkaiu53.pfb><e:/latex/texmf-dist/fonts/type
-1/arphic/gkaiu/gkaiu54.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu5
-5.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu56.pfb><e:/latex/texmf
--dist/fonts/type1/arphic/gkaiu/gkaiu57.pfb><e:/latex/texmf-dist/fonts/type1/arp
-hic/gkaiu/gkaiu58.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu59.pfb
-><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu5b.pfb><e:/latex/texmf-dist
-/fonts/type1/arphic/gkaiu/gkaiu5c.pfb><e:/latex/texmf-dist/fonts/type1/arphic/g
-kaiu/gkaiu5d.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu5e.pfb><e:/
-latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu5f.pfb><e:/latex/texmf-dist/font
-s/type1/arphic/gkaiu/gkaiu60.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/
-gkaiu61.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu62.pfb><e:/latex
-/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu63.pfb><e:/latex/texmf-dist/fonts/typ
-e1/arphic/gkaiu/gkaiu64.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu
-65.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu66.pfb><e:/latex/texm
-f-dist/fonts/type1/arphic/gkaiu/gkaiu67.pfb><e:/latex/texmf-dist/fonts/type1/ar
-phic/gkaiu/gkaiu68.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu69.pf
-b><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu6a.pfb><e:/latex/texmf-dis
-t/fonts/type1/arphic/gkaiu/gkaiu6b.pfb><e:/latex/texmf-dist/fonts/type1/arphic/
-gkaiu/gkaiu6c.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu6d.pfb><e:
-/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu6e.pfb><e:/latex/texmf-dist/fon
-ts/type1/arphic/gkaiu/gkaiu6f.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu
-/gkaiu70.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu71.pfb><e:/late
-x/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu72.pfb><e:/latex/texmf-dist/fonts/ty
-pe1/arphic/gkaiu/gkaiu73.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkai
-u74.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu75.pfb><e:/latex/tex
-mf-dist/fonts/type1/arphic/gkaiu/gkaiu76.pfb><e:/latex/texmf-dist/fonts/type1/a
-rphic/gkaiu/gkaiu77.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu78.p
-fb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu79.pfb><e:/latex/texmf-di
-st/fonts/type1/arphic/gkaiu/gkaiu7a.pfb><e:/latex/texmf-dist/fonts/type1/arphic
-/gkaiu/gkaiu7b.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu7c.pfb><e
-:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu7d.pfb><e:/latex/texmf-dist/fo
-nts/type1/arphic/gkaiu/gkaiu7e.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkai
-u/gkaiu7f.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu80.pfb><e:/lat
-ex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu81.pfb><e:/latex/texmf-dist/fonts/t
-ype1/arphic/gkaiu/gkaiu82.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gka
-iu83.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu84.pfb><e:/latex/te
-xmf-dist/fonts/type1/arphic/gkaiu/gkaiu85.pfb><e:/latex/texmf-dist/fonts/type1/
-arphic/gkaiu/gkaiu86.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu88.
-pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu89.pfb><e:/latex/texmf-d
-ist/fonts/type1/arphic/gkaiu/gkaiu8a.pfb><e:/latex/texmf-dist/fonts/type1/arphi
-c/gkaiu/gkaiu8b.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu8c.pfb><
-e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu8d.pfb><e:/latex/texmf-dist/f
-onts/type1/arphic/gkaiu/gkaiu8f.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gka
-iu/gkaiu90.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu91.pfb><e:/la
-tex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu94.pfb><e:/latex/texmf-dist/fonts/
-type1/arphic/gkaiu/gkaiu95.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gk
-aiu96.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu97.pfb><e:/latex/t
-exmf-dist/fonts/type1/arphic/gkaiu/gkaiu98.pfb><e:/latex/texmf-dist/fonts/type1
-/arphic/gkaiu/gkaiu99.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu9a
-.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu9c.pfb><e:/latex/texmf-
-dist/fonts/type1/arphic/gkaiu/gkaiuff.pfb><e:/latex/texmf-dist/fonts/type1/publ
-ic/cm-super/sftt1000.pfb><e:/latex/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
-fb><e:/latex/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><e:/latex/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb><e:/latex/texmf-dist/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on template.pdf (10 pages, 1093617 bytes).
+fonts/type1/public/amsfonts/cm/cmsy9.pfb><e:/latex/texmf-dist/fonts/type1/arphi
+c/gkaiu/gkaiu00.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu30.pfb><
+e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu4e.pfb><e:/latex/texmf-dist/f
+onts/type1/arphic/gkaiu/gkaiu4f.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gka
+iu/gkaiu50.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu51.pfb><e:/la
+tex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu52.pfb><e:/latex/texmf-dist/fonts/
+type1/arphic/gkaiu/gkaiu53.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gk
+aiu54.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu55.pfb><e:/latex/t
+exmf-dist/fonts/type1/arphic/gkaiu/gkaiu56.pfb><e:/latex/texmf-dist/fonts/type1
+/arphic/gkaiu/gkaiu57.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu58
+.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu59.pfb><e:/latex/texmf-
+dist/fonts/type1/arphic/gkaiu/gkaiu5b.pfb><e:/latex/texmf-dist/fonts/type1/arph
+ic/gkaiu/gkaiu5c.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu5d.pfb>
+<e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu5e.pfb><e:/latex/texmf-dist/
+fonts/type1/arphic/gkaiu/gkaiu5f.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gk
+aiu/gkaiu60.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu61.pfb><e:/l
+atex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu62.pfb><e:/latex/texmf-dist/fonts
+/type1/arphic/gkaiu/gkaiu63.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/g
+kaiu64.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu65.pfb><e:/latex/
+texmf-dist/fonts/type1/arphic/gkaiu/gkaiu66.pfb><e:/latex/texmf-dist/fonts/type
+1/arphic/gkaiu/gkaiu67.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu6
+8.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu69.pfb><e:/latex/texmf
+-dist/fonts/type1/arphic/gkaiu/gkaiu6a.pfb><e:/latex/texmf-dist/fonts/type1/arp
+hic/gkaiu/gkaiu6b.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu6c.pfb
+><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu6d.pfb><e:/latex/texmf-dist
+/fonts/type1/arphic/gkaiu/gkaiu6e.pfb><e:/latex/texmf-dist/fonts/type1/arphic/g
+kaiu/gkaiu6f.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu70.pfb><e:/
+latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu71.pfb><e:/latex/texmf-dist/font
+s/type1/arphic/gkaiu/gkaiu72.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/
+gkaiu73.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu74.pfb><e:/latex
+/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu75.pfb><e:/latex/texmf-dist/fonts/typ
+e1/arphic/gkaiu/gkaiu76.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu
+77.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu78.pfb><e:/latex/texm
+f-dist/fonts/type1/arphic/gkaiu/gkaiu79.pfb><e:/latex/texmf-dist/fonts/type1/ar
+phic/gkaiu/gkaiu7a.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu7b.pf
+b><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu7c.pfb><e:/latex/texmf-dis
+t/fonts/type1/arphic/gkaiu/gkaiu7d.pfb><e:/latex/texmf-dist/fonts/type1/arphic/
+gkaiu/gkaiu7e.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu7f.pfb><e:
+/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu80.pfb><e:/latex/texmf-dist/fon
+ts/type1/arphic/gkaiu/gkaiu81.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu
+/gkaiu82.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu83.pfb><e:/late
+x/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu84.pfb><e:/latex/texmf-dist/fonts/ty
+pe1/arphic/gkaiu/gkaiu85.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkai
+u86.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu88.pfb><e:/latex/tex
+mf-dist/fonts/type1/arphic/gkaiu/gkaiu89.pfb><e:/latex/texmf-dist/fonts/type1/a
+rphic/gkaiu/gkaiu8a.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu8b.p
+fb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu8c.pfb><e:/latex/texmf-di
+st/fonts/type1/arphic/gkaiu/gkaiu8d.pfb><e:/latex/texmf-dist/fonts/type1/arphic
+/gkaiu/gkaiu8f.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu90.pfb><e
+:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu91.pfb><e:/latex/texmf-dist/fo
+nts/type1/arphic/gkaiu/gkaiu94.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkai
+u/gkaiu95.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu96.pfb><e:/lat
+ex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu97.pfb><e:/latex/texmf-dist/fonts/t
+ype1/arphic/gkaiu/gkaiu98.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gka
+iu99.pfb><e:/latex/texmf-dist/fonts/type1/arphic/gkaiu/gkaiu9a.pfb><e:/latex/te
+xmf-dist/fonts/type1/arphic/gkaiu/gkaiu9c.pfb><e:/latex/texmf-dist/fonts/type1/
+arphic/gkaiu/gkaiuff.pfb><e:/latex/texmf-dist/fonts/type1/public/cm-super/sftt1
+000.pfb><e:/latex/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><e:/latex/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb><e:/latex/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb><e:/latex/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on template.pdf (10 pages, 1100958 bytes).
 PDF statistics:
- 619 PDF objects out of 1000 (max. 8388607)
- 428 compressed objects within 5 object streams
+ 623 PDF objects out of 1000 (max. 8388607)
+ 431 compressed objects within 5 object streams
  64 named destinations out of 1000 (max. 500000)
  32701 words of extra memory for PDF output out of 35830 (max. 10000000)
 
