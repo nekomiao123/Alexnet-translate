@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.17)  21 JUN 2019 09:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.17)  21 JUN 2019 11:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -766,7 +766,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
  []
 
 
-Underfull \vbox (badness 3281) has occurred while \output is active []
+Underfull \vbox (badness 1484) has occurred while \output is active []
 
 
 
@@ -929,13 +929,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
  ) 
 Here is how much of TeX's memory you used:
- 11885 strings out of 492649
- 172463 string characters out of 6136695
- 413990 words of memory out of 5000000
- 15087 multiletter control sequences out of 15000+600000
- 107429 words of font info for 289 fonts, out of 8000000 for 9000
+ 11893 strings out of 492649
+ 172575 string characters out of 6136695
+ 414083 words of memory out of 5000000
+ 15091 multiletter control sequences out of 15000+600000
+ 107854 words of font info for 292 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,45p,1239b,1753s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,45p,1230b,1752s stack positions out of 5000i,500n,10000p,200000b,80000s
 {e:/latex/texmf-dist/fonts/enc/dvips/base/8r.enc}{e:/latex/texmf-dist/fonts/e
 nc/dvips/cm-super/cm-super-t1.enc}<e:/latex/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmex10.pfb><e:/latex/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
@@ -1004,7 +1004,7 @@ arphic/gkaiu/gkaiuff.pfb><e:/latex/texmf-dist/fonts/type1/public/cm-super/sftt1
 000.pfb><e:/latex/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><e:/latex/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb><e:/latex/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb><e:/latex/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on template.pdf (10 pages, 1100958 bytes).
+Output written on template.pdf (10 pages, 1101584 bytes).
 PDF statistics:
  623 PDF objects out of 1000 (max. 8388607)
  431 compressed objects within 5 object streams
